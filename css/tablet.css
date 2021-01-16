@@ -1,0 +1,83 @@
+/* for navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+}
+/* for social media */
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.social a {
+  margin: 1.2rem;
+}
+
+.social img:active {
+  background: orange;
+}
+
+/* for main section */
+
+.stars {
+  display: block;
+}
+
+.all,
+.jonny {
+  float: left;
+  width: 45%;
+}
+
+.all p,
+.jonny p,
+.dynamo p,
+.kronten p {
+  text-align: center;
+  padding: 0 3rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+.dynamo,
+.kronten {
+  float: right;
+  width: 45%;
+}
+
+.soon img,
+.main img {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.date {
+  margin: 2rem 1rem 4rem 1rem;
+}
+
+.soon p,
+.main p {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.img-main:hover::after,
+.img-kronten:hover::after,
+.img-dynamo:hover::after,
+.img-jonny:hover::after,
+.img-soon:hover::after,
+.img-all:hover::after {
+  display: none;
+}
+
+/* for facebook */
+
+.footer a {
+  padding: 1rem 4rem;
+}
+
+.facebook a:active {
+  background: orange;
+  color: #333;
+}

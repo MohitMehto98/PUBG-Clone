@@ -1,0 +1,75 @@
+/* for showcase */
+
+.showcase {
+  background: url("../images/bg_m.jpg") no-repeat center center/cover;
+}
+
+.coming {
+  display: none;
+}
+
+.comings {
+  /* position: absolute;
+   right: 0; */
+  opacity: 1;
+  width: 20rem;
+  margin: 5rem 0 0 1.5rem;
+}
+
+/* for social */
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+}
+
+.social a {
+  margin: 1rem;
+}
+
+.social img:active {
+  background: orange;
+}
+
+/* for main section */
+
+.stars {
+  display: block;
+}
+
+.stars img {
+  margin: 0;
+  width: 20rem;
+}
+
+.stars p {
+  margin: 0rem;
+  text-align: center;
+  padding: 0 3.5rem 0 0;
+}
+
+.date {
+  margin: 0.5rem 0 5rem 0;
+}
+
+.date-main {
+  margin-bottom: 10rem;
+}
+
+/* for footer  */
+
+.footer img {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+
+.img-main:hover::after,
+.img-kronten:hover::after,
+.img-dynamo:hover::after,
+.img-jonny:hover::after,
+.img-soon:hover::after,
+.img-all:hover::after {
+  display: none;
+}
