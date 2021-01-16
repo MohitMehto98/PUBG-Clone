@@ -283,6 +283,10 @@ body {
   font-family: "Teko", sans-serif;
 }
 
+.stars-1 {
+  display: none;
+}
+
 /* for facebook */
 
 .facebook {

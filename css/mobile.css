@@ -1,3 +1,9 @@
+/* for navbar  */
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 /* for showcase */
 
 .showcase {
@@ -34,16 +40,16 @@
 
 /* for main section */
 
-.stars {
+.stars-1 {
   display: block;
 }
 
-.stars img {
+.stars-1 img {
   margin: 0;
   width: 20rem;
 }
 
-.stars p {
+.stars-1 p {
   margin: 0rem;
   text-align: center;
   padding: 0 3.5rem 0 0;
@@ -55,6 +61,17 @@
 
 .date-main {
   margin-bottom: 10rem;
+}
+
+.stars {
+  display: none;
+}
+
+.stars-1 p {
+  margin-left: 2rem;
+  opacity: 0.8;
+  font-family: "Teko", sans-serif;
+  font-size: 1.3rem;
 }
 
 /* for footer  */
